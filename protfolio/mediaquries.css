@@ -1,0 +1,115 @@
+
+@media screen and (max-width: 2000px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .a-c {
+      flex-wrap: wrap;
+    }
+    #contact{
+      height: fit-content;
+      position: relative;
+    }
+    #projects {
+      height: fit-content;
+    
+    }
+    section,
+    .sec-c {
+      height: fit-content;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #navid{
+        display: none;
+    }
+
+    #ham{
+        display: flex;
+    }
+    #exp,
+    .e-d-c {
+      margin-top: 2rem;
+    }
+    #profile,
+    .sec-c {
+      display: block;
+    }
+    .arrow {
+      display: none;
+    }
+    section,
+    .sec-c {
+      height: fit-content;
+    }
+    section {
+      margin: 0 5%;
+    }
+    .s-p-c {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+      justify-content: center;
+    }
+    .a-c {
+      margin-top: 1rem;
+    }
+  }
+  
+
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .a-c,
+    .contact-info-upper-container,
+    .btn-c {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-link li a {
+      font-size: 1rem;
+    }
+    .e-s-t {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-link {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .s-p-c{
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .s-t-p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .t-c {
+      text-align: justify;
+    }
+  }

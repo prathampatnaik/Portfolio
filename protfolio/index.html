@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRATHAM PATNAIK - WEB DEVELOPER, PROGRAMMER, ML ENTHUSIAST</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquries.css">
+</head>
+
+<body>
+    <nav id="navid">
+        <div class="logo">Pratham Patnaik</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham">
+        <div class="logo">Pratham Patnaik</div>
+        <div class="ham-menu">
+            <div class="ham-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#about-me" onclick="togglemenu()">About me</a></li>
+                <li><a href="#exp" onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="s-p-c">
+            <img src="pp.jpg" alt="pic of me" style="border-radius: 1rem;">
+        </div>
+        <div class="sec-text">
+            <p class="sec-t-p1">Hello, I'm</p>
+            <h1c class="title">Pratham Patnaik</h1>
+                <p class="sec-t-p2">A fullstack devloper</p>
+
+                <div class="btn-c">
+                    <button class="btn btn-c2" onclick="window.open('Pratham Patnaik.pdf')">
+                        Download CV
+                    </button>
+                    <button class="btn btn-c1" onclick="location.href='./#contact'">
+                        Contact Info
+                    </button>
+                </div>
+                <div id="social">
+                    <img src="linked.in.png" alt="linkedin png" class="icon"
+                        onclick="window.open('https://linkedin.com/in/prathampatnaik')">
+                    <img src="github (1).png" alt="linkedin png" class="icon"
+                        onclick="window.open('https://github.com/prathampatnaik')">
+                </div>
+        </div>
+    </section>
+    <section id="about-me">
+        <p class="sec-t-p1">Get to know more</p>
+        <h1 class="title">About me</h1>
+        <div class="sec-c">
+            <div class="s-p-c">
+                <img src="bg.jpg" alt="Profile picture" class="a-p" />
+            </div>
+            <div class="a-d-c">
+                <div class="a-c">
+                    <div class="d-c">
+                        <img src="edu.png" alt="exp icon" class="icon" />
+                        <h3>experience</h3>
+                        <p>2+ years <br>Software Development</p>
+                    </div>
+                    <div class="d-c">
+                        <img src="edu.png" alt="exp icon" class="icon" />
+                        <h3>education</h3>
+                        <p>BTech<br>Computer Science</p>
+                    </div>
+                </div>
+                <div class="t-c">
+                    <p>Motivated B.Tech Computer Science student with a fervent interest in software development and
+                        technology. Proficient in coding languages and algorithms, with a strong foundation in computer
+                        science principles. Possesses excellent communication skills and a proactive approach to
+                        self-growth and learning. Eager to apply technical knowledge and problem-solving abilities to
+                        contribute to innovative projects and drive advancements in the field of software development.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="down.png" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+    <section id="exp">
+        <p class="sec-t-p1">Explore my</p>
+        <h1 class="title"> experience</h1>
+        <div class="e-d-c">
+            <div class="a-c">
+                <div class="d-c">
+                    <h2 class="e-s-t">SOFTWARE DEVELOPMER</h2>
+                    <div class="ar-c">
+                        <article>
+                            <img src="medal.png" alt="experience" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="medal.png" alt="experience" class="icon">
+                            <div>
+                                <h3>JAVA</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="medal.png" alt="experience" class="icon">
+                            <div>
+                                <h3>PYTHON</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="medal.png" alt="experience" class="icon">
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="medal.png" alt="experience" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="down.png" alt="arrow icon" class="icon arrow" onclick="location.href='#projects'">
+    </section>
+    <section id="projects">
+        <p class="sec-t-p1">BROWSE MY RECENT</p>
+        <h1 class="title">Projects</h1>
+        <div class="e-d-c">
+            <div class="a-c">
+                <div class="d-c c-c">
+                    <div class="ar-c">
+                        <img src="calculation-1889004_1920.jpg" alt="Project 1" class="p-i">
+                    </div>
+                    <h2 class="e-s-t p-t">Basic claculator using client-server model</h2>
+                    <div class="btn-c">
+                        <button class="btn btn-c2 Project-btn"
+                            onclick="window.open('https://github.com/prathampatnaik/client-server-projects')">
+                            Have a Look
+                        </button>
+                        <button class="btn btn-c2 Project-btn"
+                            onclick="window.open('https://github.com/prathampatnaik/client-server-projects')">
+                            LIVE demo
+                        </button>
+                    </div>
+                </div>
+                <div class="d-c c-c">
+                    <div class="ar-c">
+                        <img src="calculation-1889004_1920.jpg" alt="Project 2" class="p-i">
+                    </div>
+                    <h2 class="e-s-t p-t">Project-2</h2>
+                    <div class="btn-c">
+                        <button class="btn btn-c2 Project-btn" onclick="window.open('https://google.com')">
+                            Have a Look
+                        </button>
+                        <button class="btn btn-c2 Project-btn" onclick="window.open.('https://google.com')">
+                            LIVE demo
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="down.png" alt="arrow icon" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+    <section id="contact">
+        <p class="sec-t-p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                <p><a href="mailto:prathampatnaik001@gmail@gmail.com">prathampatnaik001@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="linked.in.png" alt="LinkedIn icon" class="icon contact-icon" />
+                <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav">
+                <ul class="nav-link">
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#intro">My Intro</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a onclick="window.open('Pratham Patnaik.pdf')">CV</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Pratham Patnaik. All write reaserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
